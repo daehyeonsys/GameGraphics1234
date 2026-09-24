@@ -14,6 +14,10 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         transform.position = startPosition;
+        Debug.Log("게임 시작1");
+        Debug.Log("게임 시작2");
+        Debug.Log("게임 시작3");
+        Debug.Log("게임 시작4");
         Debug.Log(playerName + " 시작. 체력 " + hp);
     }
     void OnMove(InputValue value)
